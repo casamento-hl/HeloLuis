@@ -8,13 +8,13 @@ import os
 guests = [
   # Helo
     (["Rita", "Fábio"], "2 de Agosto de 2026"),
-    (["Emilly"], "2 de Agosto de 2026"),
-    (["Letícia", "Wilye"], "2 de Agosto de 2026"),
+    (["Emilly"], "August 2, 2026"),
+    (["Letícia", "Wilye"], "2 de Agosto de 2026/August 2, 2026"),
     (["Sarah", "Pedro"], "2 de Agosto de 2026"),
     (["Mariana"], "2 de Agosto de 2026"),
     (["Beatriz Dias"], "2 de Agosto de 2026"),
-    (["Beatriz","Ricardo","Helena"], "2 de Agosto de 2026"),
-    (["Silke"], "2 de Agosto de 2026")
+    (["Beatriz", "Ricardo"], "2 de Agosto de 2026"),
+    (["Silke"], "August 2, 2026")
   #Luis
 ]
 
@@ -305,7 +305,7 @@ invite_template = """
 
   <div class="invite-container">
 
-    <img class="invite" src="Convite2.png" alt="Wedding Invitation">
+    <img class="invite" src="Convite3.png" alt="Wedding Invitation">
 
     <div class="invite-text">
       <h1>Heloisa & Luis</h1>
