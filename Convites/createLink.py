@@ -11,7 +11,7 @@ guests = [
     (["Beatriz", "Ricardo"], "15 de Agosto de 2026"),
     (["Silke"], "August 15, 2026"),
     (["BIF"], "August 15, 2026"),
-    (["Silvia","José"], "15 de Agosto de 2026"),
+    (["Silvia", "José"], "15 de Agosto de 2026"),
     (["Marina", "Jhon"], "15 de Agosto de 2026/August 15, 2026"),
 ]
 
