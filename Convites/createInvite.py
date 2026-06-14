@@ -8,13 +8,14 @@ import os
 guests = [
   # Helo
     (["Rita", "Fábio"], "15 de Agosto de 2026"),
-    (["Emilly"], "August 15, 2026"),
+    #(["Emilly"], "August 15, 2026"),
     (["Letícia", "Wilye"], "15 de Agosto de 2026/August 15, 2026"),
     (["Sarah", "Pedro"], "15 de Agosto de 2026"),
     (["Mariana"], "15 de Agosto de 2026"),
     (["Beatriz Dias"], "15 de Agosto de 2026"),
     (["Beatriz", "Ricardo"], "15 de Agosto de 2026"),
-    (["Silke"], "August 15, 2026")
+    #(["Silke"], "August 15, 2026"),
+    (["BIF"], "15 de Agosto de 2026"),
   #Luis
 ]
 
@@ -190,7 +191,7 @@ invite_template = """
   .invite-text {{
     position: absolute;
 
-    top: 55%;
+    top: 58%;
     left: 50%;
     transform: translate(-50%, -50%);
 

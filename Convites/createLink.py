@@ -1,7 +1,7 @@
 import pandas as pd
 
 guests = [
-    # Helo
+    # Helo Extrangeiros
      (["Rita", "Fábio"], "15 de Agosto de 2026"),
     (["Emilly"], "August 15, 2026"),
     (["Letícia", "Wilye"], "15 de Agosto de 2026/August 15, 2026"),
@@ -9,7 +9,8 @@ guests = [
     (["Mariana"], "15 de Agosto de 2026"),
     (["Beatriz Dias"], "15 de Agosto de 2026"),
     (["Beatriz", "Ricardo"], "15 de Agosto de 2026"),
-    (["Silke"], "August 15, 2026")
+    (["Silke"], "August 15, 2026"),
+    (["BIF"], "August 15, 2026"),
 ]
 
 base_url = "https://casamento-hl.github.io/HeloLuis/Convites/"
