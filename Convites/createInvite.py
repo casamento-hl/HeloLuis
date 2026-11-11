@@ -46,6 +46,21 @@ guests = [
 
   # Luis
   (["Fernando", "Gisele"], "20 de Dezembro de 2026"),
+  (["Eloisa", "Eleazar"], "20 de Dezembro de 2026"),
+  (["Teresa", "Fernando"], "20 de Dezembro de 2026"),
+  (["Fabio", "Mônica"], "20 de Dezembro de 2026"),
+  (["Flavio", "Márcia"], "20 de Dezembro de 2026"),
+  (["Adriana", "Nelson"], "20 de Dezembro de 2026"),
+  (["Eduardo", "Vanderlei"], "20 de Dezembro de 2026"),
+  (["Maria Helena", "Fabio"], "20 de Dezembro de 2026"),
+  (["João", "Marian"], "20 de Dezembro de 2026"),
+  (["Fernanda", "Nikolas", "Olívia"], "20 de Dezembro de 2026"),
+  (["Regina", "Gustavo"], "20 de Dezembro de 2026"),
+  (["Beatriz", "Guilherme"], "20 de Dezembro de 2026"),
+  (["Karina", "", "Mateus"], "20 de Dezembro de 2026"),
+  (["Sthela", ""], "20 de Dezembro de 2026"),
+  (["Marcia"], "20 de Dezembro de 2026"),
+  (["Nelson", "Dalva"], "20 de Dezembro de 2026"),
 
 ]
 
