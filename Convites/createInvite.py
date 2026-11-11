@@ -7,17 +7,17 @@ import os
 
 guests = [
   # Helo
-    # (["Rita", "Fábio"], "15 de Agosto de 2026"),
-    # #(["Emilly"], "August 15, 2026"),
-    # (["Letícia", "Wilye"], "15 de Agosto de 2026/August 15, 2026"),
-    # (["Sarah", "Pedro"], "15 de Agosto de 2026"),
-    # (["Mariana"], "15 de Agosto de 2026"),
-    # (["Beatriz Dias"], "15 de Agosto de 2026"),
-    # (["Beatriz", "Ricardo"], "15 de Agosto de 2026"),
-    # #(["Silke"], "August 15, 2026"),
-    # (["BIF"], "15 de Agosto de 2026"),
-    # (["Silvia", "José"], "15 de Agosto de 2026"),
-    # (["Marina", "Jhon"], "15 de Agosto de 2026/August 15, 2026"),
+    (["Rita", "Fábio"], "15 de Agosto de 2026"),
+    #(["Emilly"], "August 15, 2026"),
+    (["Letícia", "Wilye"], "15 de Agosto de 2026/August 15, 2026"),
+    (["Sarah", "Pedro"], "15 de Agosto de 2026"),
+    (["Mariana"], "15 de Agosto de 2026"),
+    (["Beatriz Dias"], "15 de Agosto de 2026"),
+    (["Beatriz", "Ricardo"], "15 de Agosto de 2026"),
+    #(["Silke"], "August 15, 2026"),
+    (["BIF"], "15 de Agosto de 2026"),
+    (["Silvia", "José"], "15 de Agosto de 2026"),
+    (["Marina", "Jhon"], "15 de Agosto de 2026/August 15, 2026"),
   #Luis
 
   # Heloisa
@@ -42,6 +42,11 @@ guests = [
     (["Arthur", "Karina","Júlia"], "20 de Dezembro de 2026"),
     (["Vitor"], "20 de Dezembro de 2026"),
     (["Luciana", "Evair","Gabriela"], "20 de Dezembro de 2026"),
+
+
+  # Luis
+  (["Fernando", "Gisele"], "20 de Dezembro de 2026"),
+
 ]
 
 # =========================================
@@ -337,7 +342,7 @@ invite_template = """
       <h1>Heloisa & Luis</h1>
 
       <nav>
-        convidam <strong>{guest_text}</strong> para o seu casamento dia
+        convidam para o seu casamento <strong>{guest_text}</strong> no dia
       </nav>
 
       <nav class="bold-text">
