@@ -1,24 +1,21 @@
 import pandas as pd
 
 guests = [
-    # Helo Extrangeiros
-    #  (["Rita", "Fábio"], "15 de Agosto de 2026"),
-    # (["Emilly"], "August 15, 2026"),
-    # (["Letícia", "Wilye"], "15 de Agosto de 2026/August 15, 2026"),
-    # (["Sarah", "Pedro"], "15 de Agosto de 2026"),
-    # (["Mariana"], "15 de Agosto de 2026"),
-    # (["Beatriz Dias"], "15 de Agosto de 2026"),
-    # (["Beatriz", "Ricardo"], "15 de Agosto de 2026"),
-    # (["Silke"], "August 15, 2026"),
-    # (["BIF"], "August 15, 2026"),
-    # (["Silvia", "José"], "15 de Agosto de 2026"),
-    # (["Marina", "Jhon"], "15 de Agosto de 2026/August 15, 2026"),
+    # Helo
+    (["Rita", "Fábio"], "15 de Agosto de 2026"),
+    #(["Emilly"], "August 15, 2026"),
+    (["Letícia", "Wilye"], "15 de Agosto de 2026/August 15, 2026"),
+    (["Sarah", "Pedro"], "15 de Agosto de 2026"),
+    (["Mariana"], "15 de Agosto de 2026"),
+    (["Beatriz Dias"], "15 de Agosto de 2026"),
+    (["Beatriz", "Ricardo"], "15 de Agosto de 2026"),
+    #(["Silke"], "August 15, 2026"),
+    (["BIF"], "15 de Agosto de 2026"),
+    (["Silvia", "José"], "15 de Agosto de 2026"),
+    (["Marina", "Jhon"], "15 de Agosto de 2026/August 15, 2026"),
+  #Luis
 
-    # Luis
-    (["Fernando", "Gisele"], "20 de Dezembro de 2026"),
-    (["Eloisa", "----"], "20 de Dezembro de 2026"),
-
-    # Heloisa
+  # Heloisa
     (["Júlia", "Christian"], "20 de Dezembro de 2026"),
     (["Rosângela", "Tomaz"], "20 de Dezembro de 2026"),
     (["Padrinho", "Madrinha"], "20 de Dezembro de 2026"),
@@ -40,6 +37,26 @@ guests = [
     (["Arthur", "Karina","Júlia"], "20 de Dezembro de 2026"),
     (["Vitor"], "20 de Dezembro de 2026"),
     (["Luciana", "Evair","Gabriela"], "20 de Dezembro de 2026"),
+
+
+  # Luis
+  (["Fernando", "Gisele"], "20 de Dezembro de 2026"),
+  (["Eloisa", "Eleazar"], "20 de Dezembro de 2026"),
+  (["Teresa", "Fernando"], "20 de Dezembro de 2026"),
+  (["Fabio", "Mônica"], "20 de Dezembro de 2026"),
+  (["Flavio", "Márcia"], "20 de Dezembro de 2026"),
+  (["Adriana", "Nelson"], "20 de Dezembro de 2026"),
+  (["Eduardo", "Vanderlei"], "20 de Dezembro de 2026"),
+  (["Maria Helena", "Fabio"], "20 de Dezembro de 2026"),
+  (["João", "Marian"], "20 de Dezembro de 2026"),
+  (["Fernanda", "Nikolas", "Olívia"], "20 de Dezembro de 2026"),
+  (["Regina", "Gustavo"], "20 de Dezembro de 2026"),
+  (["Beatriz", "Guilherme"], "20 de Dezembro de 2026"),
+  (["Karina", "Marcos", "Mateus"], "20 de Dezembro de 2026"),
+  (["Sthela", "João Goulart"], "20 de Dezembro de 2026"),
+  (["Marcia"], "20 de Dezembro de 2026"),
+  (["Nelson", "Dalva"], "20 de Dezembro de 2026"),
+  
 ]
 
 base_url = "http://casamentoheloluis.com/Convites/"

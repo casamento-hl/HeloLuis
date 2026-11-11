@@ -8,13 +8,13 @@ import os
 guests = [
   # Helo
     (["Rita", "Fábio"], "15 de Agosto de 2026"),
-    #(["Emilly"], "August 15, 2026"),
+    (["Emilly"], "August 15, 2026"),
     (["Letícia", "Wilye"], "15 de Agosto de 2026/August 15, 2026"),
     (["Sarah", "Pedro"], "15 de Agosto de 2026"),
     (["Mariana"], "15 de Agosto de 2026"),
     (["Beatriz Dias"], "15 de Agosto de 2026"),
     (["Beatriz", "Ricardo"], "15 de Agosto de 2026"),
-    #(["Silke"], "August 15, 2026"),
+    (["Silke"], "August 15, 2026"),
     (["BIF"], "15 de Agosto de 2026"),
     (["Silvia", "José"], "15 de Agosto de 2026"),
     (["Marina", "Jhon"], "15 de Agosto de 2026/August 15, 2026"),
@@ -57,8 +57,8 @@ guests = [
   (["Fernanda", "Nikolas", "Olívia"], "20 de Dezembro de 2026"),
   (["Regina", "Gustavo"], "20 de Dezembro de 2026"),
   (["Beatriz", "Guilherme"], "20 de Dezembro de 2026"),
-  (["Karina", "", "Mateus"], "20 de Dezembro de 2026"),
-  (["Sthela", ""], "20 de Dezembro de 2026"),
+  (["Karina", "Marcos", "Mateus"], "20 de Dezembro de 2026"),
+  (["Sthela", "João"], "20 de Dezembro de 2026"),
   (["Marcia"], "20 de Dezembro de 2026"),
   (["Nelson", "Dalva"], "20 de Dezembro de 2026"),
 
@@ -357,15 +357,20 @@ invite_template = """
       <h1>Heloisa & Luis</h1>
 
       <nav>
-        convidam para o seu casamento <strong>{guest_text}</strong> no dia
+        convidam para o seu casamento no dia
       </nav>
 
       <nav class="bold-text">
-        21 de Fevereiro de 2027 às 11:00 h
+        21 de Fevereiro de 2027 às 11:00 h.
+      </nav>
+
+      <nav>
+        <strong>{guest_text}</strong>
       </nav>
 
       <nav class="small-note">
-        Av. Angélica, 2278 - Consolação, São Paulo - SP, Brasil
+        Av. Angélica, 2278 - Consolação, <br>  
+        São Paulo - SP, Brasil
       </nav>
 
     <!-- Button -->
