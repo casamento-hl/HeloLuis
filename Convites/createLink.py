@@ -42,7 +42,7 @@ guests = [
     (["Luciana", "Evair","Gabriela"], "20 de Dezembro de 2026"),
 ]
 
-base_url = "http://casamentoheloluis.com/"
+base_url = "http://casamentoheloluis.com/Convites/"
 
 rows = []
 
